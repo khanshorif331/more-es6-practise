@@ -99,20 +99,14 @@ const result3 = array.filter(x => x%2 != 0);
 
 // ৭. একটা array এর মধ্যে অনেকগুলা অবজেক্ট আছে। সেখানে যেই অবজেক্ট এর price আছে ৫০০০ টেক্কা সেই অবজেক্টকে find দিয়ে বের করো। 
 
-// const items = [
-//     {name:'phone',color:'white' , price:15000},
-//     {name:'tablet',color:'red' ,price:5600},
-//     {name:'cycle',color:'blue' , price:5000}
-// ];
+const products = [
+    {name:'phone',color:'white' , price:15000},
+    {name:'tablet',color:'red' ,price:5600},
+    {name:'cycle',color:'blue' , price:5000}
+];
 
-// // const item = (...items)
-
-// // const find = 
-
-// // const newItems = items.map(x=>x);
-// // const item = (...newItems)=>
-
-// console.log(item.name);
+const result6 = products.find(item => item.price==5000);
+console.log(result6);
 
 
 // ৭.৫ [এক্সট্রা] জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। 
